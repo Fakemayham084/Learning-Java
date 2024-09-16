@@ -14,6 +14,17 @@ public class Variables {
 		char symbol = '$'; // Only 1 letter Or Number Or Symbol.
 		String userName = "Fakemayham084"; // Can be any text or number or symbol.
 		
+		String a = "water"; // if a=b then A would = Kool-Aid
+		String b = "Kool-Aid"; // if b=a then B would = Water
+		String temp=null;
+		
+		temp = a; // Swapping Variable
+		a=b;
+		b = temp;
+		
+		System.out.println("A: " + a);
+		System.out.println("B: " + b);
+		
 		x = 123; //assignment
 		
 		// Print Statements
